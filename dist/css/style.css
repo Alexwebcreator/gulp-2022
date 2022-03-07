@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Pushster;
+  font-display: swap;
+  src: url("../fonts/Pushster-Regular.woff2") format("woff2"), url("../fonts/Pushster-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.no-webp body {
+  background: url("../images/i-am.jpg"); }
+
+body {
+  background-color: #dabfbf;
+}
+
+body h1 {
+  font-family: Pushster;
+  font-weight: 400;
+  color: green;
+  font-size: 60px;
+}
+
+.img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.webp body { background: url(../images/i-am.webp); }
